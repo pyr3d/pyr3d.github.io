@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Gallery</title>
+<style>
+
+
+div.gallery {
+  border: 1px solid #ffffff;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+
+<body>
+
+<h2>My Little Gallery</h2>
+
+<h4>Here are some awesome images...</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="/img/setup01.jpeg">
+      <img src="/img/setup01.jpeg" alt="MY_Setup01" width="600" height="400">
+    </a>
+    <div class="desc">My Setup!</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="/img/setup02.jpeg">
+      <img src="/img/setup02.jpeg" alt="My_Setyp02" width="600" height="400">
+    </a>
+    <div class="desc">My Setup!</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="/img/empty_way.jpeg">
+      <img src="/img/empty_way.jpeg" alt="Greenery" width="600" height="400">
+    </a>
+    <div class="desc">A Peacful Way...</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="/img/lake01.jpeg">
+      <img src="/img/lake01.jpeg" alt="Lake" width="600" height="400">
+    </a>
+    <div class="desc">A Nice View!</div>
+  </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="/img/sunset_garden01.jpeg">
+        <img src="/img/sunset_garden01.jpeg" alt="Sunset_Garden01" width="600" height="400">
+      </a>
+      <div class="desc">Sun is about to set, And Day is about to end...</div>
+    </div>
+  </div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="/img/sunset_garden02.jpeg">
+      <img src="/img/sunset_garden02.jpeg" alt="sunset_garden02" width="600" height="400">
+    </a>
+    <div class="desc">A View that I can't forget...</div>
+  </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="/img/sunset_dry_tree.jpeg">
+        <img src="/img/sunset_dry_tree.jpeg" alt="Sunset_View" width="600" height="400">
+      </a>
+      <div class="desc">Sunset with a Dry Tree</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="/img/sunset03.jpeg">
+        <img src="/img/sunset03.jpeg" alt="Sunset_View" width="600" height="400">
+      </a>
+      <div class="desc">Sky is Pink!</div>
+    </div>
+</div>
+
+
+
+<div class="clearfix"></div>
+
+</body>
+</html>
+
+
